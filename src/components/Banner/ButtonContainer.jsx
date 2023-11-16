@@ -1,4 +1,4 @@
-import { ArrowRight } from "../svg/ArrowRight";
+import { ArrowRight } from "../svg";
 import { Button } from "./";
 
 export const ButtonContainer = () => {

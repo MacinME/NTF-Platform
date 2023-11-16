@@ -15,6 +15,7 @@ export default {
             secondary: "#6A6A6A",
             tertiary: "#A4A4A4",
             disable: "#E3E3E3",
+            green: "#0E9766",
           },
           surface: {
             background: "#FFFFFF",
