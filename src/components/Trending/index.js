@@ -5,3 +5,6 @@ export * from "./MainTab";
 export * from "./Profile";
 export * from "./Tabs";
 export * from "./Trending";
+export * from "./HeaderTable";
+export * from "./TableRow";
+export * from "./Table";
