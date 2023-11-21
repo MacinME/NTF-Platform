@@ -1,4 +1,4 @@
-export const CardFooter = ({ floorPrice, floorChange, type }) => {
+export const TM_Card_Footer = ({ floorPrice, floorChange, type }) => {
   return (
     <div className="flex justify-center items-center bg-light-surface-soft rounded-[10px] h-[41px] w-full">
       <p className="flex justify-center items-center gap-2 grow font-medium not-italic leading-6 text-base tracking-[-0.2px] shrink-0 basis-0">

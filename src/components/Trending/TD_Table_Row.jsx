@@ -1,6 +1,6 @@
-import { Profile, CardFooter } from "./";
+import { TM_Card_Footer, T_Profile } from ".";
 
-export const TableRow = ({
+export const TD_Table_Row = ({
   id,
   username,
   url_min_size,
@@ -15,8 +15,8 @@ export const TableRow = ({
           {id}
         </p>
       </div>
-      <Profile url={url_min_size} username={username} />
-      <CardFooter
+      <T_Profile url={url_min_size} username={username} />
+      <TM_Card_Footer
         floorChange={floor_change}
         floorPrice={foor_Price}
         type={type}

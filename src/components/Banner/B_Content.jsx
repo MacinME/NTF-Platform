@@ -1,6 +1,6 @@
-import { ButtonContainer, CheckBoxContainer, BorderBox } from "./";
+import { B_Button_Container, B_Images_Container, B_Square } from ".";
 
-export const Banner = () => {
+export const B_Content = () => {
   return (
     <div className="relative md:h-[440px] xl:h-[550px]">
       <div className="grid gap-14 px-4 pt-[60px] md:grid-cols-2 md:grid-rows-2 md:gap-12 md:h-[440px] md:pt-0 md:px-10 md:relative md:w-full xl:px-20 xl:h-[550px] overflow-x-hidden">
@@ -10,15 +10,15 @@ export const Banner = () => {
           </h1>
 
           {/* Buttons Container */}
-          <ButtonContainer />
+          <B_Button_Container />
         </div>
 
         {/* CheckBox Container */}
-        <CheckBoxContainer />
+        <B_Images_Container />
 
         {/* Border */}
-        <BorderBox right="xl:right-[550px]" other="xl:bottom-40" />
-        <BorderBox right="xl:-right-12" other="xl:top-28" />
+        <B_Square right="xl:right-[550px]" other="xl:bottom-40" />
+        <B_Square right="xl:-right-12" other="xl:top-28" />
         <div className="background-2 hidden rounded-[300px] absolute md:block md:w-[574px] md:h-[574px] md:-top-[300px] md:-right-[350px] xl:-top-[190px] xl:-right-[100px] z-10"></div>
       </div>
       {/* Background */}

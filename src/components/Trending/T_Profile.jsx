@@ -1,6 +1,6 @@
 import { Verify } from "../svg/Verify";
 
-export const Profile = ({ url, username, type }) => {
+export const T_Profile = ({ url, username, type }) => {
   return (
     <div className="flex items-center gap-3">
       <div className="flex justify-center items-center rounded-xl w-[48px] h-[48px]">
@@ -13,7 +13,7 @@ export const Profile = ({ url, username, type }) => {
             <Verify />
           </span>
         </p>
-        <p className="text-sm font-normal leading-5 tracking-[-0.2px text-light-element-secondary md:hidden">
+        <p className="text-sm font-normal leading-5 tracking-[-0.2px md:hidden text-light-element-secondary">
           {type}
         </p>
       </div>

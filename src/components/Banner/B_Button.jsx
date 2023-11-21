@@ -1,4 +1,4 @@
-export const Button = (props) => {
+export const B_Button = (props) => {
   const { bgColor, textColor, children } = props;
   return (
     <button
