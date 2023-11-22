@@ -1,23 +1,14 @@
-import { B_Button } from ".";
-import { ArrowRight } from "../svg";
+import { GL_Black_Button, GL_White_Button } from "../global";
 
 export const B_Button_Container = () => {
   return (
     <div className="flex flex-col gap-4 md:col-start-1 md:flex-row md:h-11 md:justify-between md:w-[346px]">
-      <B_Button
-        bgColor="bg-light-element-primary_button"
-        textColor="text-white"
-      >
-        Create your own
-        <ArrowRight currentColor="white" />
-      </B_Button>
-      <B_Button
-        bgColor="bg-light-surface-secondary_button"
-        textColor="text-light-element-primary"
-      >
-        Start exploring
-        <ArrowRight currentColor="#252525" />
-      </B_Button>
+      <div className="md:w-[171px]">
+        <GL_Black_Button content="Create your own" />
+      </div>
+      <div className="md:w-[159px]">
+        <GL_White_Button content="Start exploring" />
+      </div>
     </div>
   );
 };

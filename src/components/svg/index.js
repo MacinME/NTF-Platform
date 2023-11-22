@@ -4,3 +4,4 @@ export * from "./Immutable";
 export * from "./Polygon";
 export * from "./Tezos";
 export * from "./Verify";
+export * from "./ArrowLeft";

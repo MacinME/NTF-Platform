@@ -4,6 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 * {
     padding: 0;
     margin: 0;
@@ -31,4 +32,9 @@ body {
     border-radius: 300px;
     background: linear-gradient(132deg, rgba(60, 140, 244, 0.10) 17.25%, rgba(39, 249, 152, 0.10) 59.58%, rgba(206, 235, 32, 0.10) 101.91%);
     filter: blur(100px);
+}
+
+
+.scrollbar-none::-webkit-scrollbar {
+    display: none;
 }
