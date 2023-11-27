@@ -5,6 +5,7 @@ import {
   TM_Card,
   T_Tabs_Content,
 } from "./components/Trending";
+import { S_Content } from "./components/section";
 
 const App = () => {
   return (

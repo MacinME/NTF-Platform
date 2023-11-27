@@ -34,7 +34,49 @@ body {
     filter: blur(100px);
 }
 
+/* Swiper Configurations */
 
-.scrollbar-none::-webkit-scrollbar {
-    display: none;
+.mySwiper {
+    position: static;
+    user-select: none;
+}
+
+.swiper-button-next {
+    background-image: url('./assets/svg/arrow-right.svg');
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-position: center;
+    background-size: auto;
+    border-radius: 24px;
+    width: 44px;
+    height: 44px;
+    right: 30px;
+    top: 202px;
+}
+
+.swiper-button-prev {
+    background-image: url('./assets/svg/arrow-left.svg');
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-position: center;
+    background-size: auto;
+    border-radius: 24px;
+    width: 44px;
+    height: 44px;
+    left: -20px;
+    top: 202px;
+}
+
+.swiper-button-prev::after {
+    content: "";
+}
+
+.swiper-button-next::after {
+    content: "";
+}
+
+@media only screen and (max-width: 1440px) {
+    .swiper-button-next {
+        display: none;
+    }
 }
