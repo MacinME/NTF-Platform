@@ -5,3 +5,4 @@ export * from "./Polygon";
 export * from "./Tezos";
 export * from "./Verify";
 export * from "./ArrowLeft";
+export * from "./ArrowUpRight";
